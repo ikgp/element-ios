@@ -87,7 +87,7 @@ final class BuildSettings: NSObject {
     }
     
     // Element-Web instance for the app
-    static let applicationWebAppUrlString = "https://app.element.io"
+    static let applicationWebAppUrlString = "https://chat.ikgp.de"
     
     
     // MARK: - Localization
@@ -102,7 +102,7 @@ final class BuildSettings: NSObject {
     static let forceHomeserverSelection = false
 
     /// Default server proposed on the authentication screen
-    static let serverConfigDefaultHomeserverUrlString = "https://matrix.org"
+    static let serverConfigDefaultHomeserverUrlString = "https://ikgp.de"
     
     /// Default identity server
     static let serverConfigDefaultIdentityServerUrlString = "https://vector.im"
@@ -127,6 +127,7 @@ final class BuildSettings: NSObject {
         "staging.element.io": [],
         "develop.element.io": [],
         "mobile.element.io": [""],
+        "chat.ikgp.de": [],
         // Historical ones
         "riot.im": ["/app", "/staging", "/develop"],
         "www.riot.im": ["/app", "/staging", "/develop"],
